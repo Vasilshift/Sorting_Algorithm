@@ -4,7 +4,6 @@ public class bubblesort {
         String str1 = "xtraf";
         System.out.println(str1);
         byte[] array = str1.getBytes();
-        //System.out.println(array);
 
         boolean isSorted = false;
 
