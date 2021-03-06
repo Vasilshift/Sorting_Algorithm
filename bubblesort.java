@@ -1,21 +1,21 @@
 public class bubblesort {
     public static void main(String[] args) {
 
-        String str1 = "xtraf";
-        System.out.println(str1);
-        byte[] array = str1.getBytes();
+        String str = "xtrafewg";
+        System.out.println(str);            
+        byte[] array = str.getBytes();        //convert string to another type of string (array)
 
-        boolean isSorted = false;
+        boolean isSorted = true;      //insert mark
 
-        while(!isSorted){
+        while(isSorted){
 
-            isSorted = true;
+            isSorted = false;
             for (int i =1; i < array.length; i++){
                 if (array[i] < array[i-1]){
                     int temp = array[i];
                     array[i] = array[i-1];
                     array[i-1] = (byte) temp;
-                    isSorted = false;
+                    isSorted = true;
                 }
 
             }
