@@ -1,4 +1,4 @@
-// не работает для чисел
+// работает для чисел если вводить как строку, не работает для массива
 
 public class bubblesort {
     public static void main(String[] args) {
