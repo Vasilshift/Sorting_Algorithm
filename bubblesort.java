@@ -1,10 +1,13 @@
 // работает для чисел если вводить как строку, не работает для массива
 
+
+// не работает для чисел
+
 public class bubblesort {
     public static void main(String[] args) {
 
-        String str = "xtrafewg";
-        System.out.println(str);            
+        String str = "12324564748741514564";
+        System.out.println(str);
         byte[] array = str.getBytes();        //convert string to another type of string (array)
 
         boolean isSorted = true;      //insert mark
@@ -21,10 +24,10 @@ public class bubblesort {
                 }
 
             }
-            System.out.println(new String(array));
+
 
         }
-
+        System.out.println(new String(array));
     }
 
 }
